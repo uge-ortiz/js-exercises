@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PruebaColor</title>
+    <style>
+
+.cuadro{
+    background-color: rgb(95, 137, 137);
+    margin-top: 10px;
+    height:200px;
+    width: 200px;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <button>Generate</button>
+<div class="cuadro"></div>
+
+    
+    <script>
+
+const press = document.querySelector("button");
+const cuadro = document.querySelector(".cuadro");
+
+
+
+
+let r = Math.floor(Math.random() * 256);
+let g = Math.floor(Math.random() * 256);
+let b = Math.floor(Math.random() * 256);
+
+
+
+
+press.addEventListener("click", evento => {
+    
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+    let color = `rgb(${r},${g},${b})`;
+    cuadro.style.backgroundColor = color;
+
+});
+
+console.log(color);
+
+
+    </script>
+
+
+</body>
+</html>
