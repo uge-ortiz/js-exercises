@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button{
+    -webkit-appearance: none;
+    appearance: none;
+    border: none; 
+    border-bottom: 1px solid #999;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding:10px;
+    font-size: 3em;
+    background-image: linear-gradient(to top,red,blue);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: calc(100% - 20px);
+    cursor: pointer;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+    transition: height 1s;
+
+}
+
+li{
+    color:#777;
+    font-size: 2em;
+    padding: 10px;
+
+}
+
