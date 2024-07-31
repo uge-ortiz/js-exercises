@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav{
+    padding:20px;
+
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+}
+
+nav a{
+    display:block;
+    padding: 10px 15px;
+    color: #999;
+    text-decoration: none;
+
+}
+
+
+nav a.activo{
+
+    border: 1px solid #999;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #333;
+
+}
+
+.paneles{
+    width: 500px;
+    
+}
+
+.panel{
+    padding: 0 20px 10px;
+    display: none;
+}
+
+.panel.activo{
+    display: block;
+    animation: fade 0.7s;
+
+}
+
+.panel h2{
+    color:#444;
+    font-size:  1.2em;
+}
+
+.panel p{
+    color:#333;
+    font-size: 0.8em; 
+    margin-top: 10px;
+}
+
+
+
+
+@keyframes fade{
+    
+    from{
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+
