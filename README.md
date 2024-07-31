@@ -1,1 +1,1 @@
-This is a very simple exercise made in JS during my attendance to the course I did the past year. It is serving me to learn more about git. 
+This is a repo to upload some very simple exercises I made in JS during my attendance to the Javascript course I did the past year. They are serving me to learn more about git. 
